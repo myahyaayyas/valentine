@@ -7,6 +7,9 @@
 a {
   color: var(--background);
   text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(141, 8, 8);
 }
 
 h1,
@@ -19,7 +22,7 @@ body {
   font-family: "Exo 2", sans-serif;
   height: 100%;
   width: 100%;
-  background-color: pink;
+  background-image: url(./asset/lovelove.jpg);
 }
 
 header {
@@ -149,13 +152,6 @@ li p {
   text-align: center;
 }
 
-.container a,
-.container-message a,
-.container-playlist a {
-  font-size: 24px;
-  font-weight: bold;
-}
-
 .box {
   display: flex;
   background-color: #ffffff;
@@ -195,7 +191,7 @@ li p {
   display: flex;
   gap: 30px;
   font-size: 40px;
-  color: black;
+  color: white;
 }
 
 .row {
@@ -205,7 +201,8 @@ li p {
 }
 
 .container-message,
-.container-playlist {
+.container-playlist,
+.countainer-journey {
   text-align: center;
 }
 
@@ -217,4 +214,8 @@ li p {
 .playlist {
   height: 500px;
   margin-bottom: 20px;
+}
+
+.back {
+  align-items: center;
 }
